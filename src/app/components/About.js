@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div className="about bg-[#F8F8F8] py-[60px] px-4">
-      <div className="inner_about max-w-[1000px] 2xl:max-w-[1547px] m-auto">
+      <div className="inner_about max-w-[1000px] m-auto">
         <div className="top_about">
           <h4 className="text-[20px] font-bold font-railway">
             EXCITING BRANDS
           </h4>
-          <h2 className="text-[30px] font-black">The Turmeric Co.</h2>
+          <h2 className="text-[30px] font-black font-railway">The Turmeric Co.</h2>
         </div>
         <div className="middle_about mt-2 ">
           <div className="flex flex-wrap">
@@ -28,8 +28,8 @@ const About = () => {
                   marketand get his message out, The Turmeric Co. needed help to
                   share their powerful product.
                 </p>
-                <h4 className="text-[18px] font-black mt-[25px]">Result</h4>
-                <p className="text-[16px] font-semibold mt-[10px] text-[#0B0C10]">
+                <h4 className="text-[18px] font-black mt-[25px] font-railway">Result</h4>
+                <p className="text-[16px] font-semibold mt-[10px] font-opensans text-[#0B0C10]">
                   100x growth over 2 years. Recognized by Shopify as one of
                   their fastest growing brands of 2020.
                 </p>
@@ -39,7 +39,7 @@ const About = () => {
           <div className="border_text relative mt-[20px]">
             <p
               className="md:text-[20px] md:ml-[52px] font-semibold after:absolute after:content-[''] after:right-[0] after:h-[1px] after:top-[50%] right-0  after:flex after:bg-black block md:after:w-[80%] before:content-[''] before:left-[0]  before:h-[1px] before:top-[50%]
-             before:flex before:bg-black md:before:w-[4%] before:absolute after:w-[55%] before:w-[7%] ml-[35px]"
+             before:flex before:bg-black md:before:w-[4%] before:absolute after:w-[55%] before:w-[7%] ml-[35px] font-railway"
             >
               Facts & Figure
             </p>
@@ -48,7 +48,7 @@ const About = () => {
         <div className="about_graph mt-[20px]">
           <div className="inner_graph flex flex-wrap">
             <div className="md:w-1/4">
-              <div className="p-4 md:border-e border-black">
+              <div className="px-6 py-4 md:border-e border-black">
                 <div className="flex items-center">
                   <div>
                     <img src="images/Group 1.png" />
@@ -62,7 +62,7 @@ const About = () => {
               </div>
             </div>
             <div className="md:w-1/4">
-              <div className="p-4 md:border-e border-black">
+              <div className="px-6 py-4 md:border-e border-black">
                 <div className="flex items-center">
                   <div>
                     <img src="images/optimization 1.png" />
@@ -76,7 +76,7 @@ const About = () => {
               </div>
             </div>
             <div className="md:w-1/4">
-              <div className="p-4 md:border-e border-black">
+              <div className="px-6 py-4 md:border-e border-black">
                 <div className="flex items-center">
                   <div>
                     <img src="images/campaign 1.png" />
@@ -90,7 +90,7 @@ const About = () => {
               </div>
             </div>
             <div className="md:w-1/4">
-              <div className="p-4">
+              <div className="px-6 py-4">
                 <div className="flex items-center">
                   <div>
                     <img src="images/online-advertising 2.png" />
@@ -105,6 +105,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        
         <div className="about_discription py-[80px]">
           <div className="text-center max-w-[596px] m-auto">
             <div className="flex justify-center mb-[21px]">
@@ -112,8 +113,8 @@ const About = () => {
             </div>
   
             <div className="">
-              <h2 className="font-black text-[26px]">THMAS ROBSON - KANU</h2>
-              <h4 className="text-[16px] font-semibold">
+              <h2 className="font-black text-[26px] font-railway">THMAS ROBSON - KANU</h2>
+              <h4 className="text-[16px] font-semibold font-opensans">
                 Founder of The Turmeric Co.
               </h4>
               <p className="text-[16px] font-semibold font-opensans mt-[20px]">
