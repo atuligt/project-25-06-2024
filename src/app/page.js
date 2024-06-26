@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import Masonmry from "./components/Masonry";
 import Philosophy from "./components/Philosophy";
 import Service from "./components/Service";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
