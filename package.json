@@ -9,17 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "masonry-layout": "^4.2.2",
+
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "react-flexbox-grid": "^2.1.2",
-    "react-grid-gallery": "^1.0.1",
-    "react-grid-layout": "^1.4.4",
-    "react-icons": "^5.2.1",
-    "react-masonry-component": "^6.3.0",
-    "react-resizable": "^3.0.5",
-    "react-responsive-masonry": "^2.2.0"
+    "react-icons": "^5.2.1"
   },
   "devDependencies": {
     "eslint": "^8",
