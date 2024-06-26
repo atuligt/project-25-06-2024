@@ -54,10 +54,10 @@ export const Calender = () => {
                   <div>
                     <p className="text-[14px] font-opensans font-semibold text-[#3BBA9C]">
                       This is a 15m call with our CMO - Jermaine to see if
-                      you're a good fir to work with our agency.
+                      you re a good fir to work with our agency.
                     </p>
                     <p className="mt-2 text-[14px] font-opensans font-semibold text-[#3BBA9C]">
-                      If we believe that's the case, you'll have the opportunity
+                      If we believe that s the case, you ll have the opportunity
                       to speak to Imam 1 on 1 in a longer call.
                     </p>
                   </div>
@@ -90,7 +90,7 @@ export const Calender = () => {
                   Funnels & Paid Advertising
                 </p>
                 <p className="text-[14px] font-opensans mt-4">
-                  Find a time on jermaine's calendar to schedule your call today
+                  Find a time on jermaine s calendar to schedule your call today
                   and we look forword to speaking to you soon!
                 </p>
                 <h4 className="text-[18px] font-bold text-[#3BBA9C] font-railway mt-5">
