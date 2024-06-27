@@ -4,12 +4,12 @@ const Service = () => {
   return (
     <div className="service bg-[#F8F8F8] pt-[40px] pb-[110px] px-4">
       <div className="inner_service max-w-[827px] m-auto ">
-        <div className="top_service text-center">
+        <div className="top_service text-center" data-aos="zoom-out" data-aos-once="true">
           <h1 className="md:text-[48px] text-[29px] font-black font-railway">OUR SERVICE</h1>
         </div>
         <div className="service_box_group flex flex-wrap">
-          <div className="md:w-1/2 w-full  mt-[74px]">
-            <div className="px-10">
+          <div className="md:w-1/2 w-full  mt-[74px]" data-aos="fade-up" data-aos-once="true">
+            <div className="px-10 py-10 hover:shadow-2xl transition-all rounded-lg">
               <div>
                 <img
                   className="bg-[#31979D] p-[13px] rounded-[10px] shadow-2xl"
@@ -30,8 +30,8 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 w-full  mt-[74px]">
-            <div className="px-10">
+          <div className="md:w-1/2 w-full  mt-[74px]" data-aos="fade-up" data-aos-once="true">
+            <div className="px-10 py-10 hover:shadow-2xl transition-all rounded-lg">
               <div>
                 <img
                   className="bg-[#31979D] p-[13px] rounded-[10px] shadow-2xl"
@@ -53,8 +53,8 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 w-full  mt-[74px]">
-            <div className="px-10">
+          <div className="md:w-1/2 w-full  mt-[74px]" data-aos="fade-up" data-aos-once="true">
+            <div className="px-10  py-10 hover:shadow-2xl transition-all rounded-lg">
               <div>
                 <img
                   className="bg-[#31979D] p-[13px] rounded-[10px] shadow-2xl"
@@ -71,8 +71,8 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 w-full  mt-[74px]">
-            <div className="px-10">
+          <div className="md:w-1/2 w-full  mt-[74px]" data-aos="fade-up" data-aos-once="true">
+            <div className="px-10  py-10 hover:shadow-2xl transition-all rounded-lg">
               <div>
                 <img
                   className="bg-[#31979D] p-[13px] rounded-[10px] shadow-2xl"

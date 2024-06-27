@@ -4,7 +4,7 @@ const Enquiry = () => {
   return (
     <div className="enquiry pb-[71px] pt-[41px] bg-[url('/images/quirybackground.png')] px-4 bg-no-repeat bg-cover">
       <div className="inner-inquiry max-w-[604px] m-auto">
-        <div className="enquiry-heading text-center">
+        <div className="enquiry-heading text-center" data-aos="zoom-in" data-aos-once="true">
           <h2 className="md:text-[36px] text-[29px] font-railway font-black">
             HAVE A GENERAL INQUIRY?
           </h2>
@@ -13,7 +13,7 @@ const Enquiry = () => {
             team, also feel free to reach out to us.
           </p>
         </div>
-        <div className="enquiry-form mt-[15px]">
+        <div className="enquiry-form mt-[15px]" data-aos="fade-up" data-aos-once="true">
           <form>
             <div className="flex flex-wrap">
               <div className="md:w-1/2 w-full mt-[21px]">

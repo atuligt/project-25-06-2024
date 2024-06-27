@@ -21,8 +21,8 @@ import React, { useState } from 'react'
                     <div className="hidden md:flex">
                         <div>
                             <ul>
-                                <li className="inline-block mr-[16px]"><Link className="text-white text-[14px] font-opensans font-bold" href="/">ABOUT US</Link></li>
-                                <li className="inline-block font-opensans"><Link className="text-white text-[14px] font-bold" href="/">CONTACT</Link></li> 
+                                <li className="inline-block mr-[16px]"><Link className="text-white text-[14px] font-opensans font-bold hover:text-[#3BBA9C] transition" href="/">ABOUT US</Link></li>
+                                <li className="inline-block font-opensans"><Link className="text-white text-[14px] font-bold hover:text-[#3BBA9C] transition" href="/">CONTACT</Link></li> 
                                 <button className="text-white text-[13px] bg-[#3BBA9C] px-3 py-2 rounded-[5px] font-bold ml-[40px] hover:bg-white hover:text-[#3BBA9C] transition "><Link className="font-opensans" href="/">Start Growing</Link></button>
                             </ul>
                         </div>
@@ -38,8 +38,8 @@ import React, { useState } from 'react'
                 </div>
                 <div className={mobileview == true ? "block md:hidden text-center pt-[10px] transition-all absolute w-full left-0 right-0 top-[92px]   pb-4 bg-[#2B1634] h-full" : "opacity-0 absolute text-center w-full left-0 transition-all right-0 md:hidden h-auto"}>
                     <ul>
-                        <li onClick={showmobilemenu} className="py-2 font-opensans"><Link className="text-white text-[14px] font-bold" href="/">ABOUT US</Link></li>
-                        <li onClick={showmobilemenu} className="py-2 font-opensans"><Link className="text-white text-[14px] font-bold" href="/">CONTACT</Link></li>
+                        <li onClick={showmobilemenu} className="py-2 font-opensans"><Link className="text-white text-[14px] hover:text-[#3BBA9C] transition font-bold" href="/">ABOUT US</Link></li>
+                        <li onClick={showmobilemenu} className="py-2 font-opensans"><Link className="text-white text-[14px] hover:text-[#3BBA9C] transition font-bold" href="/">CONTACT</Link></li>
                     </ul>
                 </div>
             </div>

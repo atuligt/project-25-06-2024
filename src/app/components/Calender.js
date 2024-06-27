@@ -16,14 +16,14 @@ export const Calender = () => {
    },[])
  
   return (
-    <div className="calender  px-4">
+    <div className="calender  px-4" >
       <div className="inner_calender max-w-[1080px] m-auto  border-b-[2px] border-[#3BBA9C]  py-[67px]">
         <div className="flex flex-wrap">
-          <div className="md:w-1/2 w-full">
+          <div className="md:w-1/2 w-full" data-aos="fade-right" data-aos-once="true">
             <div className="scrollable-element rounded-[29px] px-[20px] md:px-[69px] py-[36px] shadow-2xl overflow-y-scroll overflow-x-hidden" style={{height: height}}>
               <div className="intro px-5 border-b-[#3BBA9C] border-b py-3">
                 <div className="flex justify-center">
-                  <img src="images/Mask Group.png" />
+                  <img src="images/Mask Group.png" className="hover:scale-95 transition"/>
                 </div>
                 <div className="text-center">
                   <h4 className="text-[#3BBA9C] text-[24px] font-bold font-railway">
@@ -68,11 +68,11 @@ export const Calender = () => {
            
             </div>
           </div>
-          <div className="md:w-1/2  w-full">
+          <div className="md:w-1/2  w-full" data-aos="fade-left"  data-aos-once="true">
             <div className="px-[20px] md:px-[69px] py-[36px]" id="getheight">
               <div className="top_right_calender text-center border-b-[2px] border-[#3BBA9C] pb-3">
                 <div className="flex justify-center">
-                  <img src="images/Mask Group.png" />
+                  <img src="images/Mask Group.png" className="hover:scale-95 transition"/>
                 </div>
                 <h4 className="text-[#3BBA9C] text-[24px] font-bold font-railway">
                   Jermaine

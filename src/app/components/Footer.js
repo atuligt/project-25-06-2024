@@ -35,14 +35,14 @@ const Footer = () => {
             <div className="md:flex md:text-start text-center md:justify-center">
               <ul>
                 <li className="mt-[15px]">
-                  {" "}
+               
                   <h4 className="text-white mb-[25px] text-[18px] font-bold font-bold">
                     Agency
                   </h4>
                 </li>
                 <li>
                   <Link
-                    className="text-white text-[14px]  font-opensans"
+                    className="text-white text-[14px]  font-opensans hover:text-[#3BBA9C] transition"
                     href="\"
                   >
                     About Us
@@ -61,7 +61,7 @@ const Footer = () => {
                 </li>
                 <li className="mt-[15px]">
                   <Link
-                    className="text-white text-[14px]  font-opensans"
+                    className="text-white text-[14px]  font-opensans hover:text-[#3BBA9C] transition"
                     href="\"
                   >
                     Paid Social
@@ -69,7 +69,7 @@ const Footer = () => {
                 </li>
                 <li className="mt-[15px]">
                   <Link
-                    className="text-white text-[14px]  font-opensans"
+                    className="text-white text-[14px]  font-opensans hover:text-[#3BBA9C] transition"
                     href="\"
                   >
                     Pay-Per-Click
@@ -77,7 +77,7 @@ const Footer = () => {
                 </li>
                 <li className="mt-[15px]">
                   <Link
-                    className="text-white text-[14px]  font-opensans"
+                    className="text-white text-[14px]  font-opensans hover:text-[#3BBA9C] transition"
                     href="\"
                   >
                     Digital Strategy
@@ -85,7 +85,7 @@ const Footer = () => {
                 </li>
                 <li className="mt-[15px]">
                   <Link
-                    className="text-white text-[14px]  font-opensans"
+                    className="text-white text-[14px]  font-opensans hover:text-[#3BBA9C] transition"
                     href="\"
                   >
                     Funnel Design
@@ -98,14 +98,14 @@ const Footer = () => {
             <div className="md:flex md:text-start text-center md:justify-center">
               <ul>
                 <li className="mt-[15px]">
-                  {" "}
+            
                   <h4 className="text-white mb-[25px] text-[18px] font-bold font-bold">
                     Agency
                   </h4>
                 </li>
                 <li className="mt-[15px]">
                   <Link
-                    className="text-white text-[14px] flex justify-center md:justify-start items-center font-opensans"
+                    className="text-white text-[14px] flex justify-center md:justify-start items-center font-opensans hover:text-[#3BBA9C] transition"
                     href="\"
                   >
                     <div>
@@ -116,7 +116,7 @@ const Footer = () => {
                 </li>
                 <li className="mt-[15px]">
                   <Link
-                    className="text-white text-[14px] flex justify-center md:justify-start items-center font-opensans"
+                    className="text-white text-[14px] flex justify-center md:justify-start items-center font-opensans hover:text-[#3BBA9C] transition"
                     href="\"
                   >
                     <div>

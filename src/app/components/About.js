@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+
 
 const About = () => {
-  return (
+
+
+
+  return ( 
     <div className="about bg-[#F8F8F8] py-[60px] px-4">
       <div className="inner_about max-w-[1000px] m-auto">
         <div className="top_about">
@@ -12,10 +17,10 @@ const About = () => {
         </div>
         <div className="middle_about mt-2 ">
           <div className="flex flex-wrap">
-            <div className="md:w-[25%] w-full">
+            <div className="md:w-[25%] w-full" data-aos="fade-right" data-aos-once="true">
               <img src="/images/01 1.png" />
             </div>
-            <div className="md:w-[75%] w-full">
+            <div className="md:w-[75%] w-full" data-aos="fade-left" data-aos-once="true">
               <div className="md:px-[55px]">
                 <p className="text-[16px] font-semibold	text-[#0B0C10] font-opensans">
                   From pain to triumph a true hero’s journey. The Turmeric Co.s
@@ -46,7 +51,7 @@ const About = () => {
           </div>
         </div>
         <div className="about_graph mt-[20px]">
-          <div className="inner_graph flex flex-wrap">
+          <div className="inner_graph flex flex-wrap" data-aos="fade-up" data-aos-once="true">
             <div className="md:w-1/4">
               <div className="px-6 py-4 md:border-e border-black">
                 <div className="flex items-center">
@@ -106,13 +111,13 @@ const About = () => {
           </div>
         </div>
         
-        <div className="about_discription py-[80px]">
+        <div className="about_discription py-[80px]" data-aos="fade-up" data-aos-once="true">
           <div className="text-center max-w-[596px] m-auto">
             <div className="flex justify-center mb-[21px]">
                 <img src="/images/image 19.png" />
             </div>
   
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-once="true">
               <h2 className="font-black text-[26px] font-railway">THMAS ROBSON - KANU</h2>
               <h4 className="text-[16px] font-semibold font-opensans">
                 Founder of The Turmeric Co.
