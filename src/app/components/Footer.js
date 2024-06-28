@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
+
   return (
     <div className="footer px-4 bg-black pt-[35px] pb-[45px]">
       <div className="inner-footer max-w-[1247px] m-auto">
@@ -13,19 +14,19 @@ const Footer = () => {
                 </div>
               <div className="flex md:justify-start justify-center text-center mt-[20px]">
                 <div className="ml-[14px]">
-                  <img src="/images/Facebook.png" />
+                  <img className="cursor-pointer hover:bg-[#3bba9c] rounded-full" src="/images/Facebook.png" />
                 </div>
                 <div className="ml-[14px]">
-                  <img src="/images/Youtube.png" />
+                  <img  className="cursor-pointer hover:bg-[#3bba9c] rounded-full" src="/images/Youtube.png" />
                 </div>
                 <div className="ml-[14px]">
-                  <img src="/images/Twitter.png" />
+                  <img className="cursor-pointer hover:bg-[#3bba9c] rounded-full" src="/images/Twitter.png" />
                 </div>
                 <div className="ml-[14px]">
-                  <img src="/images/LinkedIN.png" />
+                  <img className="cursor-pointer hover:bg-[#3bba9c] rounded-full" src="/images/LinkedIN.png" />
                 </div>
                 <div className="ml-[14px]">
-                  <img src="/images/Google.png" />
+                  <img className="cursor-pointer hover:bg-[#3bba9c] rounded-full" src="/images/Google.png" />
                 </div>
             
               </div>

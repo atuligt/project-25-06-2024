@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <div className="hero bg-[#2B1634] py-[100px] px-4">
-      <div className="inner_hero max-w-[1247px] 2xl:max-w-[1547px] m-auto">
+      <div className="inner_hero max-w-[1247px] m-auto">
         <div className="max-w-[577px]" data-aos="zoom-out"  data-aos-once="true">
           <h2 className="text-white text-[55px] font-black font-railway">
             YOUR PARTNERS IN <span className="text-[#3BBA9C]">GROWTH</span>
